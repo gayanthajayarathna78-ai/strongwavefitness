@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strong Wave Fitness</title>
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Background Video */
+        #bg-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1; /* video stays behind */
+        }
+
+        /* Overlay content */
+        .content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            color: white;
+            margin-top: 100px;
+        }
+
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 20px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .about-section {
+            margin-top: 200px;
+            font-size: 24px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Background Video -->
+    <video autoplay loop muted id="bg-video">
+        <source src="5319754-uhd_2160_3840_25fps.mp4" type="video/mp4">
+        <!-- Put your own video file name instead of video.mp4 -->
+    </video>
+
+    <!-- Overlay Content -->
+    <div class="content">
+        <h1>Strong Wave Fitness</h1>
+
+        <nav>
+           
+            <a href="equipment.html" class="Home">Home</a> 
+            <a href="new-page.html">About</a>
+            <a href="new-page.html">Information</a>
+        </nav>
+
+        <div class="about-section" id="about">
+            <!-- You can edit this text later -->
+            <p>Strong Wave Fitness is a growing fitness brand dedicated
+ to providing affordable and high-quality products for students, hostel
+ residents, and home gym users. We create durable handmade wooden gym 
+equipment, everyday fitness accessories, and custom-designed fitness 
+T-shirts that bring both style and motivation to your workouts.
+Our goal is simple: make fitness accessible and enjoyable for everyone.
+ With creativity, strength, and passion behind every product, Strong Wave
+ Fitness supports your journey to becoming stronger—anytime, anywhere..</p>
+        </div>
+    </div>
+
+</body>
+</html>
